@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Root layout styles */
+
+.root {
+    -fx-padding: 20;
+    -fx-background-image: url("/images-2.jpeg"); /* Path to image in resources */
+    -fx-background-size: cover; /* Cover the entire container */
+    -fx-background-position: center center; /* Center the background image */
+    -fx-background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+/* Style the buttons */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 18px; /* Larger font size for better visibility */
+    -fx-padding: 15px 25px; /* Increased padding for a more prominent button */
+    -fx-background-radius: 8px; /* Rounded corners */
+    -fx-border-radius: 8px; /* Rounded corners for border */
+    -fx-border-color: #2980b9; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* Style for the text */
+.instruction-text {
+    -fx-fill: #ecf0f1; /* Light color for text */
+    -fx-font-size: 25px; /* Slightly larger text for better readability */
+    -fx-font-weight: bold;
+    -fx-background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background for text */
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+/* Style for title text */
+.title-text {
+    -fx-fill: #ecf0f1; /* Light color for title text */
+    -fx-font-size: 25px; /* Larger font size for titles */
+    -fx-font-weight: bold;
+    -fx-text-alignment: center; /* Center-align text */
+}
+
+
+/* Style for the image container */
+.image-description {
+    -fx-padding: 10;
+    -fx-background-radius: 10px; /* Rounded corners for the container */
+    -fx-background-color: linear-gradient(to bottom right, #000000, #1a1a2e, #162447); /* Gradient from black to deep blue */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 15, 0.5, 0, 0); /* Enhanced shadow for a space feel */
+    -fx-border-color: #4b0082; /* Dark indigo border color for contrast */
+    -fx-border-width: 3px; /* Border width to make image stand out */
+    -fx-margin: 10px; /* Margin around the container */
+    -fx-spacing: 10px; /* Spacing between text and image */
+}
+
+/* Style for the image itself */
+.image {
+    -fx-border-color: #ecf0f1; /* Dark indigo border for images */
+    -fx-border-width: 3px; /* Border width for images */
+    -fx-padding: 5px; /* Padding around the image to separate it from the border */
+}
+
+
+/* Style for the VBox containing images */
+#imageContainer {
+    -fx-padding: 10;
+    -fx-spacing: 20px; /* Increased spacing between image cards */
+    -fx-alignment: center; /* Center-align items in VBox */
+}
+
+/* Style for images */
+.image {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);
+    -fx-border-color: #3498db; /* Border color around images */
+    -fx-border-width: 3px; /* Border width around images */
+    -fx-background-radius: 10px; /* Rounded corners for the border */
+}
+/* Style for the label text */
+.label{
+    -fx-fill: #ecf0f1;
+    -fx-font-size: 24px; /* Adjust size as needed */
+    -fx-font-weight: bold;
+}
+.text{
+    -fx-fill: #ecf0f1;
+}
